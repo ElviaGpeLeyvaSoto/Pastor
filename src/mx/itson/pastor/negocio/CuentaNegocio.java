@@ -11,7 +11,8 @@ import mx.itson.pastor.Persistencia.CuentaDAO;
  * @author eglso
  */
 public class CuentaNegocio {
-     public static boolean guardar(String numero, int idCliente){
+    
+    public static boolean guardar(String numero, int idCliente){
         
         boolean resultado = false;
         try {
